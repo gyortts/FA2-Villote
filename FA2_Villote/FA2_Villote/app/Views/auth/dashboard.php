@@ -1,0 +1,1 @@
+<?= view('layouts/header') ?><h1>Dashboard</h1><p>Welcome, <?= esc(session('username')) ?>. You are logged in.</p><p>Use the navigation to manage customer and user accounts.</p><?= view('layouts/footer') ?>

@@ -1,0 +1,1 @@
+<?= view('layouts/header') ?><h1>Staff Login</h1><form method="post" action="<?= site_url('login') ?>"><?= csrf_field() ?><label>Username<input name="username" required value="<?= esc(old('username')) ?>"></label><label>Password<input type="password" name="password" required></label><button type="submit">Log in</button></form><?= view('layouts/footer') ?>

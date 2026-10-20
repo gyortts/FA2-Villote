@@ -1,0 +1,1 @@
+{"name":"student/fa2-villote","description":"CodeIgniter FA2_Villote","type":"project","require":{"php":"^8.1","codeigniter4/framework":"^4.5"},"scripts":{"serve":"php spark serve"}}
